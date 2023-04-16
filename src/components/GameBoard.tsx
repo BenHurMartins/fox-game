@@ -56,7 +56,7 @@ const GameBoard: FC<IGameBoard> = () => {
         <span className="w-36 ">Time left: {countdown}</span>
       </div>
       <div className="grid w-96 h-96 grid-rows-3 grid-cols-3 ">
-        {currentSet.map((img, i) => {
+        {currentSet.map((img) => {
           return (
             <GameTile
               key={img.image}

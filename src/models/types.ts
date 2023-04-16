@@ -37,6 +37,7 @@ export type GameControllerContextType = {
   gameStarted: boolean;
   gameScore: number;
   scoreboard: ScoreBoard[];
+  // eslint-disable-next-line no-unused-vars
   setPlayerName: (arg: string) => void;
   start: () => void;
   gameOver: () => void;

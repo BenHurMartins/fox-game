@@ -5,7 +5,8 @@ import Loading from "./Loading";
 interface IGameBoard {
   url: string;
   imageReady: () => void;
-  onClick: (arg: boolean) => void;
+  // eslint-disable-next-line no-unused-vars
+  onClick: (a: boolean) => void;
   isFox: boolean;
   showImage: boolean;
   next: () => void;
