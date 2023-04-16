@@ -1,8 +1,8 @@
 import { render, screen } from "../test-setup/utils";
 import userEvent from "@testing-library/user-event";
 import "@testing-library/jest-dom";
-import Home from "../pages/index";
-import { CAT_URL, DOG_URL } from "@/src/hooks/useImages";
+import Home from "@/pages/index";
+import { CAT_URL, DOG_URL } from "@/src/api";
 
 const MOCK_URL = "www.example.com";
 const catSuccess = [
